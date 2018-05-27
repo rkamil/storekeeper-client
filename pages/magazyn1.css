@@ -1,0 +1,95 @@
+/* line 1, ../sass/pages/magazyn1.scss */
+.center {
+  max-width: 1240px;
+  min-width: 320px;
+  width: 100%;
+  padding: 0 10px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+/* line 10, ../sass/pages/magazyn1.scss */
+header {
+  background: #3f4350;
+  min-height: 70px;
+}
+
+/* line 16, ../sass/pages/magazyn1.scss */
+.top-bar p {
+  text-align: center;
+  font: 300 30px monospace;
+  color: #fff;
+  padding-top: 17px;
+}
+
+/* line 24, ../sass/pages/magazyn1.scss */
+.content {
+  background: #fbfbfd;
+  height: 100%;
+}
+
+/* line 29, ../sass/pages/magazyn1.scss */
+.kategoria {
+  display: inline-block;
+  background: #fff;
+  padding: 20px;
+  width: 18%;
+}
+/* line 34, ../sass/pages/magazyn1.scss */
+.kategoria p {
+  font: 300 21px sans-serif;
+  padding: 10px 0;
+}
+/* line 38, ../sass/pages/magazyn1.scss */
+.kategoria ul {
+  padding-left: 15px;
+}
+/* line 40, ../sass/pages/magazyn1.scss */
+.kategoria ul li {
+  padding: 10px 0;
+  display: block;
+}
+/* line 43, ../sass/pages/magazyn1.scss */
+.kategoria ul li a {
+  font: 1em sans-serif;
+  color: #3f4350;
+}
+/* line 46, ../sass/pages/magazyn1.scss */
+.kategoria ul li a:hover {
+  color: #000;
+}
+
+/* line 54, ../sass/pages/magazyn1.scss */
+.products {
+  display: inline-block;
+  vertical-align: top;
+  padding: 50px 10px;
+  width: 76%;
+}
+
+/* line 61, ../sass/pages/magazyn1.scss */
+.products-support {
+  display: flex;
+  flex-wrap: wrap;
+}
+/* line 64, ../sass/pages/magazyn1.scss */
+.products-support .each-product {
+  padding: 10px;
+  background: #3f4350;
+  border-radius: 10px;
+  color: #fff;
+  font: 300 15px sans-serif;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+/* line 72, ../sass/pages/magazyn1.scss */
+.products-support .each-product img {
+  width: 150px;
+  display: block;
+  margin: 0 auto;
+}
+/* line 77, ../sass/pages/magazyn1.scss */
+.products-support .each-product p {
+  padding: 10px 0;
+  text-align: center;
+}
