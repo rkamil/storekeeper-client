@@ -91,5 +91,34 @@ header {
 /* line 77, ../sass/pages/magazyn1.scss */
 .products-support .each-product p {
   padding: 10px 0;
+  width: 150px;
+  text-overflow: ellipsis;
+  overflow: hidden;
   text-align: center;
+}
+
+@media screen and (max-width: 1089px) {
+  /* line 88, ../sass/pages/magazyn1.scss */
+  .kategoria {
+    display: block;
+    margin: 0 auto;
+  }
+
+  /* line 92, ../sass/pages/magazyn1.scss */
+  .products {
+    margin: 0 auto;
+    display: block;
+  }
+}
+@media screen and (max-width: 477px) {
+  /* line 99, ../sass/pages/magazyn1.scss */
+  .each-product {
+    margin: auto;
+  }
+}
+@media screen and (max-width: 673px) {
+  /* line 104, ../sass/pages/magazyn1.scss */
+  .kategoria {
+    width: 150px;
+  }
 }

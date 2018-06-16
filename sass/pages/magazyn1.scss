@@ -76,7 +76,32 @@ header {
         }
         p {
             padding: 10px 0;
+            width: 150px;
+            text-overflow: ellipsis;
+            overflow: hidden;
             text-align: center;
         }
+    }
+}
+
+@media screen and (max-width: 1089px){
+    .kategoria{
+        display: block;
+        margin: 0 auto;
+    }
+    .products{
+        margin: 0 auto;
+        display: block;
+    }
+}
+
+@media screen and(max-width: 477px){
+    .each-product{
+        margin: auto;
+    }
+}
+@media screen and (max-width: 673px){
+    .kategoria{
+        width: 150px;
     }
 }
